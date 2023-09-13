@@ -18,6 +18,11 @@
   font-size: 14px;
   font-weight: 500;
 }
+.section {
+  padding-top: 75px;
+  padding-bottom: 75px;
+  margin: 0 auto;
+}
 
 .container {
   padding-left: 10px;

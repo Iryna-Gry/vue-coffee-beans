@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.hero-section {
+.hero-section.section {
     background-image: linear-gradient(90deg, #1E1E1E -6.88%, rgba(0, 0, 0, 0.00) 87.45%),
         url('../../assets/coffee_image.jpg');
     background-repeat: no-repeat;
@@ -30,8 +30,7 @@ export default {
     height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 15vh;
-
+    padding-top: 20vh;
 }
 
 .hero__title {
@@ -45,7 +44,6 @@ export default {
     font-family: Clicker Script;
     font-size: 180px;
     font-weight: 400;
-
 }
 
 .hero__text {

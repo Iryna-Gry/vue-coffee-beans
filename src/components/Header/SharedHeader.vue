@@ -44,13 +44,14 @@ export default {
 <style lang="scss" scoped>
 .header {
     position: fixed;
+    z-index: 100;
     width: 100%;
     background-color: transparent;
     padding-top: 21px;
     padding-bottom: 21px;
 
     &.onScroll {
-        background-color: var(--brown-primary-color);
+        background-color: var(--black-color);
     }
 
     &__container {

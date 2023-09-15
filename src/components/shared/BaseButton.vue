@@ -34,6 +34,16 @@ export default {
         color: var(--white-color);
 
     }
+    &-whiteBg {
+        background-color: var(--cream-color);
+    border: 1px solid var(--cream-color);
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+    color: var(--black-color);
+    &:hover,
+    &:focus {
+        background-color: transparent;
+    }
+    }
 }
 
 .button.transparent {
